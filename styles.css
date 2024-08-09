@@ -39,7 +39,7 @@ nav li{
 }
 .container{
     display: flex;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    flex-wrap: wrap;
     gap:1rem;
     padding:2rem;
     background-color: white;
@@ -47,16 +47,17 @@ nav li{
 .product{
     text-align:center;
     border: 2px solid rgb(248, 237, 227,0.9);
+    
 }
 .img1{
     border-radius: 10px;
-    height: 400px;
-    width: 400px;
+    height: 600px;
+    width: 500px;
     transition: height,width,align-items, 0.15s;
 }
 .img1:hover{
-    height: 420px;
-    width: 420px;
+    height: 620px;
+    width: 520px;
     align-items: center;
 
 }
